@@ -34,7 +34,6 @@ function resizeCanvas() {
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     redrawAll();
 }
-
 function getPoint(event) {
     const rect = canvas.getBoundingClientRect();
     return {
