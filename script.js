@@ -46,7 +46,6 @@ function drawPath(path) {
     if (!path.points.length) {
         return;
     }
-
     ctx.save();
     ctx.lineJoin = "round";
     ctx.lineCap = "round";
